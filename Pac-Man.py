@@ -116,10 +116,10 @@ def move():
             point.move(course)
         else:
             options = [
-                vector(5, 0),
-                vector(-5, 0),
-                vector(0, 5),
-                vector(0, -5),
+                vector(20, 0), # cambiaboms la velocidad de los fantasmas al 
+                vector(-20, 0), # intcrementar el numero de los vectores
+                vector(0, 20),
+                vector(0, -20),
             ]
             plan = choice(options)
             course.x = plan.x
